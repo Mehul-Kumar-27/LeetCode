@@ -4,7 +4,8 @@
 #include<list>
 #include<vector>
 
-
+/// This is cycle detection and we are using dfs transversal here
+/// If the node is visited and is also present in the stack then there is cycle present
 using namespace std;
 bool cycleDetection(unordered_map<int , list<int>> &adjList,unordered_map<int , bool>&visited, unordered_map<int , bool>&isInStack, int node){
     

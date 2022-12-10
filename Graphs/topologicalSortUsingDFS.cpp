@@ -6,7 +6,8 @@
 
 using namespace std;
 
-
+/// When all the adj list of the node is visited or when we return then push the node 
+//// in the stack and then pop and put in the ans vector
 
 void dfsTransversal(unordered_map<int , list<int>> &adjList,vector<bool>&visited, stack<int> &dfsStack, int node ){
     

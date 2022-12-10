@@ -6,6 +6,8 @@
 using namespace std;
 
 
+// If the count is greater than or equal to 2 then there is cycle present 
+
 bool isCycle(unordered_map<int , list<int>>&adj , unordered_map<int, bool>&visited, int node){
     queue<int> q;
     q.push(node);

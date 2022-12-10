@@ -6,7 +6,7 @@
 
 using namespace std;
 
-
+/// If the node is visited and it is not the parent then the cycle is present
 
 bool isCycleUsingDFS(unordered_map<int, list<int>>& adj,unordered_map<int , bool>& visited, int node, unordered_map<int , int>& parent){
     
